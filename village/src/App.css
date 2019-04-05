@@ -1,3 +1,56 @@
 .App {
   text-align: center;
+  
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+.Smurfs{
+  
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+.Smurf{
+  border:1px solid black;
+  margin:10px;
+  padding-left:30px;
+  padding-right:30px;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #67c7f0, #9ed0f7, #c7dbf8, #e4e7f7, #f7f7f7);
+
+  border-radius:5px;
+}
+h1{
+  margin-left:40px;
+}
+.NavBar{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  margin-left:35px;
+  text-decoration:none;
+  
+}
+.NavLink{
+  text-decoration:none;
+  border:1px solid black;
+  padding:2px;
+  width:150px;
+  border-radius: 8px;
+  margin:5px;
+  background:blue;
+  color:white;
+}
+body{
+  background-image: url("https://d1xfgk3mh635yx.cloudfront.net/sites/default/files/styles/original/public/image/attached/1032459-smurfs-thelostvillage-06.jpg?itok=0Zqc6Snf");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -5,11 +5,11 @@ class NavBar  extends Component {P
 
     render() {
         return (
-            <div>
-                <Link to ="/">
+            <div className='NavBar'>
+                <Link to ="/" className="NavLink">
                     <h3>HOME</h3>
                 </Link>
-                <Link to = "/smurf-form">
+                <Link to = "/smurf-form" className="NavLink">
                     <h3>ADD SMURF</h3>
                 </Link>
             </div>
