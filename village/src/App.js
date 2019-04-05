@@ -15,7 +15,7 @@ class App extends Component {
     };
   }
   componentDidMount(){
-    
+    this.getSmurfs();
   }
   getSmurfs = () =>{
     axios.get('http://localhost:3333/smurfs')
