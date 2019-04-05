@@ -12,6 +12,12 @@
   flex-direction:column;
   justify-content: center;
   align-items: center;
+  background:skyblue;
+  padding-right:40px;
+  margin-left:28px;
+  border-radius:8px;
+  margin-bottom:15px;
+  margin-top:15px;
 }
 .Smurf{
   border:1px solid black;
@@ -28,10 +34,15 @@
 }
 h1{
   margin-left:40px;
+  color:black;
+  background:skyblue;
+  padding:10px;
+  border-radius:4px;
+  width:300px;
 }
 .NavBar{
   display:flex;
-  flex-direction:column;
+ 
   justify-content: center;
   align-items: center;
   margin-left:35px;
@@ -47,6 +58,7 @@ h1{
   margin:5px;
   background:blue;
   color:white;
+  
 }
 body{
   background-image: url("https://d1xfgk3mh635yx.cloudfront.net/sites/default/files/styles/original/public/image/attached/1032459-smurfs-thelostvillage-06.jpg?itok=0Zqc6Snf");
