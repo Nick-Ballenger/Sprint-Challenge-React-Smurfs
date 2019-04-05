@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import SmurfForm from './components/SmurfForm';
 import Smurfs from './components/Smurfs';
+import axios from 'axios'
 
 class App extends Component {
   constructor(props) {
@@ -12,7 +13,7 @@ class App extends Component {
     };
   }
   componentDidMount(){
-    getSmurfs()
+    
   }
   getSmurfs = () =>{
     axios.get('http://localhost:3333/smurfs')
